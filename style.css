@@ -1,0 +1,82 @@
+:root{
+    --colorbg: #03624c;
+    --lettering: #fffefe;
+    --bg: #030f0f;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: var(--colorbg);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #333;
+    color: var(--lettering);
+    padding: 20px;
+}
+
+#proyectos{
+    margin: 20px;
+}
+
+#proyectos h2{
+    color: var(--lettering);
+    font-weight: 800;
+    font-size: 30px;
+}
+
+
+
+.proyecto{
+    background: var(--bg);
+    color: var(--lettering);
+    padding: 15px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 1rem; 
+    transition: transform 0.5s;
+
+}
+
+.proyecto a{
+    color: inherit;
+    text-decoration: none;
+    background-color: var(--colorbg);
+    padding: 10px;
+    border-radius: 0.5rem;
+    transition: transform 0.5s;
+}
+
+
+
+.proyecto:hover{
+    transform: scale(1.1);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: var(--bg);
+    padding: 20px;
+  }
+
+  .icono {
+    width: 40px;
+    height: 40px;
+  }
+
+  .link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .link:hover {
+    text-decoration: underline;
+  }
