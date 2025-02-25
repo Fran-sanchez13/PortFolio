@@ -13,10 +13,26 @@ body{
 }
 
 header{
-    background-color: #333;
+    background-color: var(--bg);
     color: var(--lettering);
     padding: 20px;
 }
+
+header img{
+    width: 200px;
+    border-radius: 1rem;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+header p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
 
 #proyectos{
     margin: 20px;
@@ -51,8 +67,6 @@ header{
     transition: transform 0.5s;
 }
 
-
-
 .proyecto:hover{
     transform: scale(1.1);
 }
@@ -64,6 +78,10 @@ footer {
     gap: 15px;
     background-color: var(--bg);
     padding: 20px;
+  }
+
+  footer p{
+    color: var(--lettering);
   }
 
   .icono {
